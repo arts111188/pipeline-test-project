@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-@Library('github.com/rawlingsj/fabric8-pipeline-library@master')
+@Library('my-library')
 def dummy
 mavenTemplate {
   dockerNode {
